@@ -1,5 +1,15 @@
-Temat: Problem z walidacją po wystąpieniu błędu (dzielenia przez 0)
+Tytuł: Problem z walidacją po wystąpieniu błędu (dzielenia przez 0)
+
+Typ zadania: Bug
+
+Opis:
+Po wywołaniu porządanej odpowiedzi "błąd", gdy chcemy kontynuowac prace bez czyszczenia okienka działania
+zamiast zniknąć komunikat "błąd" zostaje i łączy się z później napisanym ciągiem cyfr
+
+Środowisko testowe:
 wersja: 0.1
+Aplikacje kompilujące: Pycharm/VSC
+OS: win 11
 data 15.09.2025r.
 
 Reprodukcja błędu:
@@ -9,8 +19,8 @@ Reprodukcja błędu:
 
 Oczekiwany rezultat:
 "Błąd" powinien zniknąć a znaki powinny zastąpić jego miejsce
+
 Rzeczywisty rezultat:
 w okienku wyniku pokazuje sie "błąd(ciagcyft)" 
 
-systenm: win11
-aplikacje kompilujące: pycharm/vsc 
+
