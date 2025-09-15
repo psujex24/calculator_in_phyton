@@ -1,0 +1,16 @@
+Temat: Problem z walidacją po wystąpieniu błędu (dzielenia przez 0)
+wersja: 0.1
+data 15.09.2025r.
+
+Reprodukcja błędu:
+1. Włączyć program 
+2. Zapisać działanie które wymusza dzielenie przez 0 
+3. Po wyskoczeniu komunikatu "błąd" wpisac dowolnej długości ciąg liczb
+
+Oczekiwany rezultat:
+"Błąd" powinien zniknąć a znaki powinny zastąpić jego miejsce
+Rzeczywisty rezultat:
+w okienku wyniku pokazuje sie "błąd(ciagcyft)" 
+
+systenm: win11
+aplikacje kompilujące: pycharm/vsc 
